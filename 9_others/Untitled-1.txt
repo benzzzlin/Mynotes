@@ -1,0 +1,50 @@
+说明：
+    主要是三块板子，1驱动板，1主控板，1信号调理板；
+
+一，驱动板主要输入：三相电，NTC电阻，PWM驱动信号（注意区别与pwm信号，这边已经隔离放大过了）；
+    输出：各类AD信息，电流电压等，报警电平；
+二，主控 主要是一块28377接口，1块FPGA接口
+    几种通信，脉冲捕获，7路的pwm，几路AD，还有这两个片子的相互总线通信
+    对外接口除了通信，还有pwm信号，信号调理板给的信号；还有一些用户选择接口
+三，信号调理板
+    主要就是对正余弦编码器调理，输入正余弦信号，输出脉冲信号；
+    然后送给主控；
+
+
+我这个igbt驱动电路做不好，买了块7驱动芯片的，也发你看看；
+还有把IGBT的封装资料发你看看，看看有没有画错了啥的
+
+include：
+"${CG_TOOL_ROOT}/include"
+"D:\ll\GIT\dlib\common\include"
+user\include
+dmclib\include
+dmclib\mathlib
+
+iddk
+"${CG_TOOL_ROOT}/include"
+"${PROJECT_LOC}\utility Src Files"
+"${RESOLVER_LIB_INSTALL_ROOT}\include"
+"${F2837x_INSTALL_ROOT}\F2837xD_headers\include"
+"${F2837x_INSTALL_ROOT}\F2837xD_common\include"
+"${MOTOR_LIB_INSTALL_ROOT}\math_blocks\v4.3"
+"${PMLIB_INSTALL_ROOT}\endat22\Float\include"
+"${PMLIB_INSTALL_ROOT}\bissc\Float\include"
+"${IQMATH_INSTALL_ROOT}\include"
+
+C:\ti\controlSUITE\libs\math\IQmath\v160\include
+C:\ti\controlSUITE\libs\app_libs\position_manager\v01_02_00_00\endat22\Float\include
+C:\ti\controlSUITE\libs\app_libs\position_manager\v01_01_00_00\bissc\Float\include
+C:\ti\controlSUITE\libs\app_libs\motor_control\math_blocks\v4.3
+C:\ti\controlSUITE\device_support\F2837xD\v210\F2837xD_headers\include
+Description	Resource	Path	Location	Type
+symbol "_FPU_OVERFLOW_ISR" redefined: first defined in "./F2837xD_DefaultISR.obj"; redefined in "./libsource/F2837xD_DefaultISR.obj" symbol "_FPU_OVERFLOW_ISR" redefined: first defined in "./F2837xD_DefaultISR.obj"; redefined in "./libsource/F2837xD_DefaultISR.obj"	my_test		 	C/C++ Problem
+Description	Resource	Path	Location	Type
+symbol "_EQep1Regs" redefined: first defined in "./F2837xD_GlobalVariableDefs.obj"; redefined in "./libsource/F2837xD_GlobalVariableDefs.obj" symbol "_EQep1Regs" redefined: first defined in "./F2837xD_GlobalVariableDefs.obj"; redefined in "./libsource/F2837xD_GlobalVariableDefs.obj"	my_test		 	C/C++ Problem
+Description	Resource	Path	Location	Type
+#10010 errors encountered during linking; "my_test.out" not built	my_test		 	C/C++ Problem
+Description	Resource	Path	Location	Type
+ unresolved symbols remain	my_test		 	C/C++ Problem
+
+ gpio
+ 
