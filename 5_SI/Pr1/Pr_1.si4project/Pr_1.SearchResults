@@ -1,0 +1,200 @@
+---- main Matches (203 in 99 files) ----
+avf_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\avf\base) line 354 :  *  avf_init_asq - main initialization routine for ASQ
+avf_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\avf\base) line 357 :  *  This is the main initialization routine for the Admin Send Queue
+avf_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\avf\base) line 416 :  *  The main initialization routine for the Admin Receive (Event) Queue.
+avf_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\avf\base) line 475 :  *  The main shutdown routine for the Admin Send Queue
+avf_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\avf\base) line 509 :  *  The main shutdown routine for the Admin Receive Queue
+avf_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\avf\base) line 540 :  *  avf_init_adminq - main initialization routine for Admin Queue
+avf_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\avf\base) line 683 :  *  This is the main send command driver routine for the Admin Queue send
+avf_type.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\avf\base) line 208 :  * flexibility of using the same main driver code but adapting to slightly
+basicfwd.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\skeleton) line 101 :  * The lcore main. This is the main thread that does the work, reading from
+basicfwd.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\skeleton) line 155 :  * The main function, which does initialization and calls the per-lcore
+bnx2x_devinfo in bnx2x.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\bnx2x) :  * This define is used in two main places:
+client.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\multi_process\client_server_mp\mp_client) line 200 :  * Application main function - loops through
+cmdline.c (D:\ll\GIT\dpdk\dpdk-19.02\app\test-pmd) line 18796 : /* prompt function, called from main on MASTER lcore */
+cmdline.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\qos_sched) line 602 : /* prompt function, called from main on MASTER lcore */
+eal_thread.c (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_eal\bsdapp\eal) line 91 : /* main loop of threads */
+eal_thread.c (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_eal\linuxapp\eal) line 91 : /* main loop of threads */
+ecore_hw_prepare_single in ecore_dev.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\qede\base) : 	/* Allocate the main PTT */
+port_hw_cfg in ecore_hsi.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\bnx2x) : 	/*  SFP+ main TAP and post TAP volumes */
+core_rx_start_ramrod_data in ecore_hsi_common.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\qede\base) : 	u8 main_func_queue /* Is this the main queue for the PF */;
+core_rx_start_ramrod_data in ecore_hsi_common.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\qede\base) : /* Duplicate broadcast packets to LL2 main queue in mf_si mode. Valid if
+core_rx_start_ramrod_data in ecore_hsi_common.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\qede\base) : /* Duplicate multicast packets to LL2 main queue in mf_si mode. Valid if
+fw_ver_info in ecore_hsi_common.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\qede\base) : 	u8 image_id /* FW image ID (e.g. main, l2b, kuku) */;
+ecore_init_brb_ram in ecore_init_fw_funcs.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\qede\base) : 			 * main traffic.
+_ecore_get_vport_stats in ecore_l2.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\qede\base) : 			/* The main vport index is relative first */
+efx.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\sfc\base) line 2057 :  * The main advantage of such an approach is that RX queue refilling
+efx.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\sfc\base) line 2063 :  * The main advantage of such an approach is that RX queue refilling
+efx_regs_mcdi.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\sfc\base) line 19 : /* The MC main image has started to boot. */
+efx_regs_mcdi.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\sfc\base) line 28 : /* We have entered the main firmware via recovery mode.  This
+efx_regs_mcdi.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\sfc\base) line 1093 :  * The main image should be entered via a copy of a single word from and to a
+efx_regs_mcdi.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\sfc\base) line 17683 :  * ignoring the rule-set configured on the adapter. The main purpose of this
+efx_regs_mcdi_aoe.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\sfc\base) line 2349 : /* Image to be loaded (0 - main or 1 - diagnostic) to load in normal sequence
+elink_warpcore_enable_AN_KR in elink.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\bnx2x) : 	/* Enable Autoneg: only on the main lane */
+elink_8073_config_init in elink.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\bnx2x) : 	/* The SNR will improve about 2db by changing BW and FEE main
+elink_8073_config_init in elink.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\bnx2x) : 	 * Change FFE main cursor to 5 in EDC register
+elink_8073_read_status in elink.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\bnx2x) : 		/* The SNR will improve about 2dbby changing the BW and FEE main
+elink_8073_read_status in elink.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\bnx2x) : 		 * tap. The 1st write to change FFE main tap is set before
+signal_handler in evt_main.c (D:\ll\GIT\dpdk\dpdk-19.02\app\test-eventdev) : 			/* request all lcores to exit from the main loop */
+flow_classify.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\flow_classify) line 254 :  * The lcore main. This is the main thread that does the work, reading from
+flow_classify.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\flow_classify) line 746 :  * The main function, which does initialization and calls the lcore_main
+fm10k_dev_mq_rx_configure in fm10k_ethdev.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\fm10k) : 	/* reset MAC/VLAN as it's based on VMDQ or PF main VSI */
+fm10k_ethdev.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\fm10k) line 1583 : /* Add/Remove a MAC address, and update filters to main VSI */
+fm10k_mbx.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\fm10k\base) line 91 :  * are four main states to this machine.
+vfio_connect_container in fslmc_vfio.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\bus\fslmc) : 	/* Opens main vfio file descriptor which represents the "container" */
+fsl_qbman_base.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\bus\fslmc\qbman\include) line 99 :  * they located in the portal register map or DMA'd to and from main-memory),
+fsl_qbman_portal.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\bus\fslmc\qbman\include) line 315 :  * those writes to main-memory express a cache-warming attribute.
+fsl_qbman_portal.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\bus\fslmc\qbman\include) line 890 :  * data structure.) 'stash' controls whether or not the write to main-memory
+hwrm_ring_grp_alloc_input in hsi_struct_def_dpdk.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\bnxt) : 	 * This value identifies the main RR associated with the ring
+i40e_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e\base) line 363 :  *  i40e_init_asq - main initialization routine for ASQ
+i40e_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e\base) line 366 :  *  This is the main initialization routine for the Admin Send Queue
+i40e_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e\base) line 429 :  *  The main initialization routine for the Admin Receive (Event) Queue.
+i40e_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e\base) line 488 :  *  The main shutdown routine for the Admin Send Queue
+i40e_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e\base) line 522 :  *  The main shutdown routine for the Admin Receive Queue
+i40e_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e\base) line 573 :  *  i40e_init_adminq - main initialization routine for Admin Queue
+i40e_adminq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e\base) line 806 :  *  This is the main send command driver routine for the Admin Queue send
+eth_i40e_dev_init in i40e_ethdev.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e) : 	/* reset all stats of the device, including pf and main vsi */
+i40e_vsi_setup in i40e_ethdev.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e) : 		/* For main VSI, no need to add since it's default one */
+i40e_pf_setup in i40e_ethdev.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e) : 	/*  main VSI setup */
+i40e_pf_setup in i40e_ethdev.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e) : 		PMD_DRV_LOG(ERR, "Setup of main vsi failed");
+i40e_dcb_hw_configure in i40e_ethdev.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e) : 			/* Beside main VSI and VMDQ VSIs, only enable default
+i40e_ethdev.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e) line 57 : /* Always assign pool 0 to main VSI, VMDQ will start from 1 */
+i40e_vsi in i40e_ethdev.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e) : 	 * When drivers loaded, only a default main VSI exists. In case new VSI
+i40e_vsi in i40e_ethdev.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e) : 	 *  parent_vsi  : the uplink VSI. It's NULL for main VSI.
+i40e_pf in i40e_ethdev.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e) : 	struct i40e_vsi *main_vsi; /* pointer to main VSI structure */
+i40e_pf in i40e_ethdev.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e) : 	uint16_t main_vsi_seid; /* The seid of the main VSI */
+i40e_type.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\i40e\base) line 179 :  * flexibility of using the same main driver code but adapting to slightly
+ice_common.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice\base) line 703 :  * ice_init_hw - main hardware initialization routine
+ice_common.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice\base) line 3455 :  * function with main VSI first.
+ice_controlq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice\base) line 281 :  * ice_init_sq - main initialization routine for Control ATQ
+ice_controlq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice\base) line 285 :  * This is the main initialization routine for the Control Send Queue
+ice_controlq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice\base) line 344 :  * The main initialization routine for the Admin Receive (Event) Queue.
+ice_controlq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice\base) line 418 :  * The main shutdown routine for the Control Transmit Queue
+ice_controlq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice\base) line 481 :  * The main shutdown routine for the Control Receive Queue
+ice_controlq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice\base) line 550 :  * ice_init_ctrlq - main initialization routine for any control Queue
+ice_controlq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice\base) line 613 :  * ice_init_all_ctrlq - main initialization routine for all control queues
+ice_controlq.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice\base) line 755 :  * This is the main send command routine for the ATQ. It runs the queue,
+ice_ethdev.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice) line 56 : /* Always assign pool 0 to main VSI, VMDQ will start from 1 */
+ice_vsi in ice_ethdev.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice) : 	 * When drivers loaded, only a default main VSI exists. In case new VSI
+ice_vsi in ice_ethdev.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice) : 	 *  parent_vsi  : the uplink VSI. It's NULL for main VSI.
+ice_pf in ice_ethdev.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice) : 	struct ice_vsi *main_vsi; /* pointer to main VSI structure */
+ice_type.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ice\base) line 51 : /* Driver always calls main vsi_handle first */
+igb.h (D:\ll\GIT\dpdk\dpdk-19.02\kernel\linux\kni\ethtool\igb) line 13 : /* Linux PRO/1000 Ethernet Driver main header file */
+igb_main.c (D:\ll\GIT\dpdk\dpdk-19.02\kernel\linux\kni\ethtool\igb) line 7495 :  * will still be receiving data so we cannot yet ad it's stats to the main
+igb_main.c (D:\ll\GIT\dpdk\dpdk-19.02\kernel\linux\kni\ethtool\igb) line 8107 :  * be recognized by hardware for LRO, and GRO offloads.  The main
+igb_main.c (D:\ll\GIT\dpdk\dpdk-19.02\kernel\linux\kni\ethtool\igb) line 8218 :  * main difference between this version and the original function is that
+init.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\multi_process\client_server_mp\mp_server) line 82 :  * - set up each rx ring, to pull from the main mbuf pool
+init.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\server_node_efd\server) line 89 :  * - set up each rx ring, to pull from the main mbuf pool
+ipsec-secgw.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\ipsec-secgw) line 947 : /* main processing loop */
+main_loop in ipsec-secgw.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\ipsec-secgw) : 	RTE_LOG(INFO, IPSEC, "entering main loop on lcore %u\n", lcore_id);
+ixgbe_82599.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\ixgbe\base) line 1572 :  *  This function serves two main purposes.  First it applies the input_mask
+ixgbe_82599.c (D:\ll\GIT\dpdk\dpdk-19.02\kernel\linux\kni\ethtool\ixgbe) line 1415 :  *  This function serves two main purposes.  First it applys the input_mask
+l2fwd-cat.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l2fwd-cat) line 92 :  * The lcore main. This is the main thread that does the work, reading from
+l2fwd-cat.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l2fwd-cat) line 146 :  * The main function, which does initialization and calls the per-lcore
+l3fwd_em.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l3fwd) line 614 : /* main processing loop */
+em_main_loop in l3fwd_em.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l3fwd) : 	RTE_LOG(INFO, L3FWD, "entering main loop on lcore %u\n", lcore_id);
+l3fwd_lpm.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l3fwd) line 170 : /* main processing loop */
+lpm_main_loop in l3fwd_lpm.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l3fwd) : 	RTE_LOG(INFO, L3FWD, "entering main loop on lcore %u\n", lcore_id);
+lthread_api.h (D:\ll\GIT\dpdk\dpdk-19.02\examples\performance-thread\common) line 195 :   *  This function must be the main loop of an EAL thread.
+lthread_sched.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\performance-thread\common) line 44 :  * This must be run as the main loop of an EAL thread.
+lthread_run in lthread_sched.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\performance-thread\common) : 	 * This is the main scheduling loop
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\app\pdump) line 850 : main(int argc, char **argv)
+cmd_start_parsed in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\bond) : 	/* start lcore main on core != master_core - ARP response thread */
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\bond) line 747 : /* prompt function, called from main on MASTER lcore */
+main in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\bond) : 	/* start lcore main on core != master_core - ARP response thread */
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\exception_path) line 529 : /* Initialise ports/queues etc. and start main loop on each core */
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\ipv4_multicast) line 380 : /* main processing loop */
+main_loop in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\ipv4_multicast) : 	RTE_LOG(INFO, IPv4_MULTICAST, "entering main loop on lcore %u\n",
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\ip_fragmentation) line 375 : /* main processing loop */
+main_loop in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\ip_fragmentation) : 	RTE_LOG(INFO, IP_FRAG, "entering main loop on lcore %u\n", lcore_id);
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\ip_reassembly) line 417 : /* main processing loop */
+main_loop in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\ip_reassembly) : 	RTE_LOG(INFO, IP_RSMBL, "entering main loop on lcore %u\n", lcore_id);
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\kni) line 957 : /* Initialise ports/queues etc. and start main loop on each core */
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l2fwd) line 185 : /* main processing loop */
+l2fwd_main_loop in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l2fwd) : 	RTE_LOG(INFO, L2FWD, "entering main loop on lcore %u\n", lcore_id);
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l2fwd-crypto) line 682 : /* main processing loop */
+l2fwd_main_loop in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l2fwd-crypto) : 	RTE_LOG(INFO, L2FWD, "entering main loop on lcore %u\n", lcore_id);
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l2fwd-jobstats) line 464 : /* main processing loop */
+l2fwd_main_loop in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l2fwd-jobstats) : 	RTE_LOG(INFO, L2FWD, "entering main loop on lcore %u\n", lcore_id);
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l2fwd-keepalive) line 190 : /* main processing loop */
+l2fwd_main_loop in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l2fwd-keepalive) : 	RTE_LOG(INFO, L2FWD, "entering main loop on lcore %u\n", lcore_id);
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l3fwd-acl) line 1323 : /* main processing loop */
+main_loop in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l3fwd-acl) : 	RTE_LOG(INFO, L3FWD, "entering main loop on lcore %u\n", lcore_id);
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l3fwd-power) line 870 : /* main processing loop */
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l3fwd-power) line 974 : /* main processing loop */
+main_loop in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l3fwd-power) : 	RTE_LOG(INFO, L3FWD_POWER, "entering main loop on lcore %u\n", lcore_id);
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l3fwd-vf) line 459 : /* main processing loop */
+main_loop in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\l3fwd-vf) : 	RTE_LOG(INFO, L3FWD, "entering main loop on lcore %u\n", lcore_id);
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\link_status_interrupt) line 187 : /* main processing loop */
+lsi_main_loop in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\link_status_interrupt) : 	RTE_LOG(INFO, LSI, "entering main loop on lcore %u\n", lcore_id);
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\link_status_interrupt) line 424 :  * application main thread.
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\performance-thread\l3fwd-thread) line 1999 : /* main processing loop */
+lthread_tx_per_ring in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\performance-thread\l3fwd-thread) : 	RTE_LOG(INFO, L3FWD, "entering main tx loop on lcore %u\n", rte_lcore_id());
+lthread_tx in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\performance-thread\l3fwd-thread) : 	RTE_LOG(INFO, L3FWD, "Entering Tx main loop on lcore %u\n", lcore_id);
+lthread_rx in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\performance-thread\l3fwd-thread) : 	RTE_LOG(INFO, L3FWD, "Entering main Rx loop on lcore %u\n", rte_lcore_id());
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\performance-thread\l3fwd-thread) line 2291 : /* main processing loop */
+pthread_tx in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\performance-thread\l3fwd-thread) : 	RTE_LOG(INFO, L3FWD, "Entering main Tx loop on lcore %u\n", rte_lcore_id());
+pthread_rx in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\performance-thread\l3fwd-thread) : 	RTE_LOG(INFO, L3FWD, "entering main rx loop on lcore %u\n", lcore_id);
+main in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\performance-thread\pthread_shim) : 	 * before entering their main loop
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\qos_sched) line 30 : /* main processing loop */
+app_main_loop in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\qos_sched) : 	RTE_LOG(INFO, APP, "entering main loop on lcore %u\n", lcore_id);
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\tep_termination) line 162 : /* heads for the main used and free linked lists for the data path. */
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\tep_termination) line 578 :  * with all devices in the main linked list.
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\tep_termination) line 838 :  * Create the main linked list along with each individual cores
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\tep_termination) line 875 :  * from the main linked list. Synchonization occurs through the use
+destroy_device in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\tep_termination) : 	/* Search for entry to be removed from main ll */
+destroy_device in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\tep_termination) : 	/* Remove entries from the lcore and main ll. */
+destroy_device in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\tep_termination) : 	/* Add the entries back to the lcore and main free ll.*/
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\tep_termination) line 972 :  * to the main linked list and the allocated to a specific data core.
+new_device in main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\tep_termination) : 	/* Add device to main ll */
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\vhost) line 1154 :  * main linked list. Synchonization  occurs through the use of the
+main.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\vhost) line 1208 :  * A new device is added to a data core. First the device is added to the main linked list
+main.h (D:\ll\GIT\dpdk\dpdk-19.02\examples\bond) line 8 : int main(int argc, char *argv[]);
+mlx5_flow::LIST_ENTRY in mlx5_flow.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\mlx5) : 	struct rte_flow *flow; /**< Pointer to the main flow. */
+nfp_net.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\nfp) line 1944 :  * user. The main drawback with this design is mbuf allocation is heavier than
+node.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\server_node_efd\node) line 298 :  * Application main function - loops through
+octeontx_mbox.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\common\octeontx) line 44 :  * This structure sits at the begin of Mbox RAM and used as main
+ptpclient.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\ptpclient) line 568 :  * The lcore main. This is the main thread that does the work, reading from an
+ptpclient.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\ptpclient) line 701 :  * The main function, which does initialization and calls the per-lcore
+qat_enqueue_op_burst in qat_qp.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\common\qat) : 	/* read params used a lot in main loop into registers */
+qbman_swp::{anonvdq} in qbman_portal.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\bus\fslmc\qbman) : 		 * targeting DQRR or main-memory, and detected is based on the
+qbman_swp::{anonvdq} in qbman_portal.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\bus\fslmc\qbman) : 		 * dequeue entries in DQRR or main-memory (respectively).
+rte_common.h (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_eal\common\include) line 98 :  * Run function before main() with high priority.
+rte_common.h (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_eal\common\include) line 110 :  * Run function before main() with low priority.
+rte_common.h (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_eal\common\include) line 121 :  * Run after main() with low priority.
+rte_common.h (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_eal\common\include) line 133 :  * Run after main() with high priority.
+rte_hash_iterate in rte_cuckoo_hash.c (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_hash) : 	/* Out of bounds of all buckets (both main table and ext table) */
+rte_eal.h (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_eal\common\include) line 29 : #define RTE_MAGIC 19820526 /**< Magic number written by the main partition when ready. */
+rte_eal.h (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_eal\common\include) line 120 :  * as possible in the application's main() function.
+rte_eal.h (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_eal\common\include) line 122 :  * The function finishes the initialization process before main() is called.
+rte_eth_softnic_thread.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\softnic) line 3029 :  * Data plane threads: main
+rte_eth_szedata2.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\szedata2) line 34 : /*! main handle structure */
+rte_gro.h (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_gro) line 83 :  * This is one of the main reassembly APIs, which merges numbers of
+ipv6_frag_reassemble in rte_ipv6_reassembly.c (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_ip_frag) : 	 * the main IPv6 header instead.
+rte_keepalive.h (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_eal\common\include) line 133 :  * This function needs to be called from within the main process loop of
+rte_keepalive.h (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_eal\common\include) line 145 :  * the main process loop of the LCore going to sleep, in order to avoid
+app_lcore_main_loop in runtime.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\load_balancer) : 		printf("Logical core %u (I/O) main loop.\n", lcore);
+app_lcore_main_loop in runtime.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\load_balancer) : 		printf("Logical core %u (worker %u) main loop.\n",
+sfc_log.h (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\sfc) line 26 : #define SFC_LOGTYPE_MAIN_STR	SFC_LOGTYPE_PREFIX "main"
+sgl_len in sge.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\cxgbe) : 	 * Address0; the "(3*(n-1))/2" covers the main body of list entries (3
+sge.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\cxgbe) line 604 :  * @start: start offset into mbuf main-body data to include in the SGL
+sge.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\cxgbe) line 610 :  * main body except for the first @start bytes.  @sgl must be 16-byte
+sw_evdev_selftest.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\event\sw) line 352 :  * It is factored out of the main priority tests as the same tests must be
+test_atomic.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 23 :  * - The main test function performs three subtests. The first test
+test_atomic.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 42 :  *     (rte_atomic32_read(&val) == 0)`` which is triggered by the main test
+test_atomic.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 47 :  *   - The main function checks that the atomic counter was incremented
+test_bpf.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 22 :  * The main procedure - load eBPF program, execute it and
+test_meter.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 680 :  * test main entrance for library meter
+test_mp_secondary.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 54 :  * This function is called in the primary i.e. main test, to spawn off secondary
+test_pdump.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 165 :  * This function is called in the primary i.e. main test, to spawn off secondary
+test_pmd_perf.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 446 : /* main processing loop */
+test_rwlock.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 98 :  * - The main function unlocks the per-lcore locks sequentially and
+test_sched.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 108 :  * test main entrance for library sched
+test_spinlock.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 38 :  * - The main function unlocks the per-lcore locks sequentially and
+test_timer.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 19 :  *    - On each core, the rte_timer_manage() function is called from the main
+test_timer.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 21 :  *    - In the main loop, the timer may be reset (randomly, with a
+test_timer.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) line 54 :  *    - On each core, the rte_timer_manage() function is called from main loop
+slave_main_loop in test_timer_racecond.c (D:\ll\GIT\dpdk\dpdk-19.02\test\test) : 	printf("Starting main loop on core %u\n", lcore_id);
+thread.c (D:\ll\GIT\dpdk\dpdk-19.02\examples\ip_pipeline) line 3127 :  * Data plane threads: main
+virtio_xmit_pkts_packed in virtio_rxtx.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\virtio) : 		/* How many main ring entries are needed to this Tx?
+virtio_xmit_pkts in virtio_rxtx.c (D:\ll\GIT\dpdk\dpdk-19.02\drivers\net\virtio) : 		/* How many main ring entries are needed to this Tx?
