@@ -1,0 +1,1 @@
+- [touchpad](https://www.dell.com/support/article/us/en/19/sln114937/%E7%A6%81%E7%94%A8%E6%88%96%E5%90%AF%E7%94%A8%E6%88%B4%E5%B0%94%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84%E8%A7%A6%E6%91%B8%E6%9D%BF?lang=zh)
