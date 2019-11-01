@@ -1,3 +1,36 @@
----- No free hugepages reported Matches (2 in 1 files) ----
-get_num_hugepages in eal_hugepage_info.c (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_eal\linuxapp\eal) : 		RTE_LOG(WARNING, EAL, "No free hugepages reported in %s\n",
-get_num_hugepages_on_node in eal_hugepage_info.c (D:\ll\GIT\dpdk\dpdk-19.02\lib\librte_eal\linuxapp\eal) : 		RTE_LOG(WARNING, EAL, "No free hugepages reported in %s\n",
+---- numa.h Matches (3 in 3 files) ----
+eal_memalloc.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) line 31 : #include <numa.h>
+eal_memory.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) line 29 : #include <numa.h>
+vhost.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_vhost) line 11 : #include <numa.h>
+---- RTE_LIBRTE_VHOST_NUMA Matches (8 in 4 files) ----
+iotlb.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_vhost) line 33 : #ifdef RTE_LIBRTE_VHOST_NUMA
+iotlb.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_vhost) line 328 : #ifdef RTE_LIBRTE_VHOST_NUMA
+rte_eth_vhost.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\drivers\net\vhost) line 727 : #ifdef RTE_LIBRTE_VHOST_NUMA
+rte_eth_vhost.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\drivers\net\vhost) line 742 : #ifdef RTE_LIBRTE_VHOST_NUMA
+vhost.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_vhost) line 10 : #ifdef RTE_LIBRTE_VHOST_NUMA
+rte_vhost_get_numa_node in vhost.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_vhost) : #ifdef RTE_LIBRTE_VHOST_NUMA
+vhost_user.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_vhost) line 34 : #ifdef RTE_LIBRTE_VHOST_NUMA
+vhost_user.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_vhost) line 398 : #ifdef RTE_LIBRTE_VHOST_NUMA
+---- RTE_EAL_NUMA_AWARE_HUGEPAGES Matches (17 in 2 files) ----
+eal_memalloc.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) line 30 : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+eal_memalloc.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) line 157 : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+alloc_seg in eal_memalloc.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+alloc_seg in eal_memalloc.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+eal_memalloc_alloc_seg_bulk in eal_memalloc.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+eal_memalloc_alloc_seg_bulk in eal_memalloc.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+eal_memalloc_alloc_seg_bulk in eal_memalloc.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+eal_memory.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) line 28 : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+eal_memory.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) line 243 : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+map_all_hugepages in eal_memory.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+map_all_hugepages in eal_memory.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+map_all_hugepages in eal_memory.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+map_all_hugepages in eal_memory.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+find_numasocket in eal_memory.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : #ifdef RTE_EAL_NUMA_AWARE_HUGEPAGES
+memseg_primary_init_32 in eal_memory.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : #ifndef RTE_EAL_NUMA_AWARE_HUGEPAGES
+memseg_primary_init in eal_memory.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : #ifndef RTE_EAL_NUMA_AWARE_HUGEPAGES
+rte_eal_memseg_init in eal_memory.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : #ifndef RTE_EAL_NUMA_AWARE_HUGEPAGES
+---- numa_set_localalloc Matches (4 in 2 files) ----
+restore_numa in eal_memalloc.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : 		numa_set_localalloc();
+restore_numa in eal_memalloc.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : 		numa_set_localalloc();
+map_all_hugepages in eal_memory.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : 			numa_set_localalloc();
+map_all_hugepages in eal_memory.c (D:\ll\GIT\dpdk_to_compare\dpdk-stable-18.11\lib\librte_eal\linuxapp\eal) : 			numa_set_localalloc();
